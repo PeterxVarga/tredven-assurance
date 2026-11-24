@@ -1,0 +1,1324 @@
+{
+  "schema": "tredven.assurance.public-corpus.v1",
+  "observed_utc": "2026-11-24T13:03:27.384684+00:00",
+  "latest_observed": "1.32.2",
+  "probe_sha256": "949bf3bc7adb7aa2e9ef260c9a4ccbf964ef2357322c9b2fe5db27507c4385a4",
+  "node_sha256": "bc17c508ffeed0ec622934f9b7fa72f8e78da65350e63c3eceb56fa688aa5e12",
+  "node_version": "v24.19.0",
+  "core_sha256": "556ec2226dac1b4ff27aaa919458d27ae883333f39372fd2e7b4a36e95dfcaf8",
+  "observations": [
+    {
+      "sdk": "1.21.0",
+      "zod": "3.25.76",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": true,
+          "exports": [
+            "function",
+            "function",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": false,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false,
+          "error": "MCP error -32603: Cannot read properties of null (reading '_def')"
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": true
+        },
+        "2627": {
+          "pass": false,
+          "error": "MCP error -32603: Cannot read properties of null (reading '_def')"
+        },
+        "2636": {
+          "pass": true,
+          "additionalProperties": false
+        }
+      },
+      "lock_sha256": "4e58cad42b73c07d199190fc2676601198877a9b907380f690dbd4adff3cc4fa",
+      "dependencies": 90,
+      "probe_ms": 269,
+      "total_ms": 5167
+    },
+    {
+      "sdk": "1.24.3",
+      "zod": "3.25.76",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": true,
+          "exports": [
+            "function",
+            "function",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": false,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false,
+          "error": "Cannot read properties of null (reading '_zod')"
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": true
+        },
+        "2627": {
+          "pass": true
+        },
+        "2636": {
+          "pass": true,
+          "additionalProperties": false
+        }
+      },
+      "lock_sha256": "014668c058dcd1e84c93ea0339bf7c3871fdbe0993278f930c03d1269fe14658",
+      "dependencies": 91,
+      "probe_ms": 470,
+      "total_ms": 4112
+    },
+    {
+      "sdk": "1.25.0",
+      "zod": "3.25.76",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": false,
+          "exports": [
+            "undefined",
+            "undefined",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": false,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false,
+          "error": "Cannot read properties of null (reading '_zod')"
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": true
+        },
+        "2627": {
+          "pass": true
+        },
+        "2636": {
+          "pass": true,
+          "additionalProperties": false
+        }
+      },
+      "lock_sha256": "c8dba9c8904f73e8e891347d9815df6b77d2d591f267d80741ab03130cfe5be8",
+      "dependencies": 94,
+      "probe_ms": 471,
+      "total_ms": 4615
+    },
+    {
+      "sdk": "1.25.3",
+      "zod": "3.25.76",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": true,
+          "exports": [
+            "function",
+            "function",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": false,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false,
+          "error": "Cannot read properties of null (reading '_zod')"
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": true
+        },
+        "2627": {
+          "pass": true
+        },
+        "2636": {
+          "pass": true,
+          "additionalProperties": false
+        }
+      },
+      "lock_sha256": "b207657fa6785414531af4e753ee3793a50b122da65659f7280013e8499d812c",
+      "dependencies": 94,
+      "probe_ms": 420,
+      "total_ms": 4064
+    },
+    {
+      "sdk": "1.29.0",
+      "zod": "3.25.76",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": true,
+          "exports": [
+            "function",
+            "function",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": false,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false,
+          "error": "Cannot read properties of null (reading '_zod')"
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": true
+        },
+        "2627": {
+          "pass": true
+        },
+        "2636": {
+          "pass": true,
+          "additionalProperties": false
+        }
+      },
+      "lock_sha256": "c764dfde3fd033dec2f4d9b1f664df5405db79ba8750de926855503e87ccf5d0",
+      "dependencies": 95,
+      "probe_ms": 421,
+      "total_ms": 4062
+    },
+    {
+      "sdk": "1.29.0",
+      "zod": "4.4.3",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": true,
+          "exports": [
+            "function",
+            "function",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": false,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": false,
+          "error": "MCP error -32603: Date cannot be represented in JSON Schema"
+        },
+        "2627": {
+          "pass": true
+        },
+        "2636": {
+          "pass": false,
+          "additionalProperties": null
+        }
+      },
+      "lock_sha256": "32f4ca8f10b4357b3dc5375ef1920476fbde10b8d6fa90f74c4534a8f8142456",
+      "dependencies": 95,
+      "probe_ms": 421,
+      "total_ms": 4013
+    },
+    {
+      "sdk": "1.30.0",
+      "zod": "4.4.3",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": true,
+          "exports": [
+            "function",
+            "function",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": false,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": false,
+          "error": "MCP error -32603: Date cannot be represented in JSON Schema"
+        },
+        "2627": {
+          "pass": true
+        },
+        "2636": {
+          "pass": false,
+          "additionalProperties": null
+        }
+      },
+      "lock_sha256": "17aeba3cd3f861f38a2db1feb9e1b2a7809b0d94a4c8918f1630f25ff0516d0c",
+      "dependencies": 95,
+      "probe_ms": 420,
+      "total_ms": 4165
+    },
+    {
+      "sdk": "1.32.2",
+      "zod": "3.25.76",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": true,
+          "exports": [
+            "function",
+            "function",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": true,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false,
+          "error": "Cannot read properties of null (reading '_zod')"
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": true
+        },
+        "2627": {
+          "pass": true
+        },
+        "2636": {
+          "pass": true,
+          "additionalProperties": false
+        }
+      },
+      "lock_sha256": "c732344ebbe352b64162c4e94939875bd4aee33af878ac5a57b5cfa3497bedf3",
+      "dependencies": 95,
+      "probe_ms": 421,
+      "total_ms": 4113
+    },
+    {
+      "sdk": "1.32.2",
+      "zod": "4.4.3",
+      "status": "OBSERVED",
+      "cases": {
+        "1302": {
+          "pass": true,
+          "exports": [
+            "function",
+            "function",
+            "function"
+          ]
+        },
+        "1376": {
+          "pass": true
+        },
+        "1864": {
+          "pass": false
+        },
+        "1869": {
+          "pass": true,
+          "explicit_empty_workaround": true
+        },
+        "1956": {
+          "pass": true,
+          "mode": "tool-result"
+        },
+        "1960": {
+          "pass": false
+        },
+        "2084": {
+          "pass": false,
+          "input": "http://json-schema.org/draft-07/schema#",
+          "output": "http://json-schema.org/draft-07/schema#"
+        },
+        "2464": {
+          "pass": false,
+          "error": "MCP error -32603: Date cannot be represented in JSON Schema"
+        },
+        "2627": {
+          "pass": true
+        },
+        "2636": {
+          "pass": false,
+          "additionalProperties": null
+        }
+      },
+      "lock_sha256": "cc7620ae09d87666b06946fa59d370bb852fc6b147c0f1b21f73f09d2240a2e8",
+      "dependencies": 95,
+      "probe_ms": 420,
+      "total_ms": 4213
+    }
+  ],
+  "cases": [
+    {
+      "id": "1302",
+      "title": "JSON-RPC exports",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1302",
+      "baseline": {
+        "sdk": "1.25.0",
+        "zod": "3.25.76"
+      },
+      "status": "OBSERVED_VERSION_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.32.2",
+        "zod": "3.25.76"
+      },
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "a6ff674aa18cc31e0410b903d8e61954eee0dc5a028590c5ea04bafabd6b1846",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-1302",
+          "baseline_tag": "1.25.0+zod.3.25.76",
+          "candidate_tag": "1.25.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "BLOCKED",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "failed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MANDATORY_CHECK_FAILED",
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE"
+          ],
+          "next_action": "Inspect failed check or inconsistent source evidence. Do not upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      },
+      "alternative_gate": {
+        "input_sha256": "c6c287fa204256739e88afa5518119470a94401737073f777061792bc50f8c02",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-1302",
+          "baseline_tag": "1.25.0+zod.3.25.76",
+          "candidate_tag": "1.32.2+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "UNKNOWN",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "passed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE",
+            "NO_COMPLETE_ENVIRONMENT_OR_RUNTIME_PROOF"
+          ],
+          "next_action": "Obtain missing provenance and runtime test evidence. Do not auto-upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "1376",
+      "title": "Global fetch identity",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1376",
+      "baseline": {
+        "sdk": "1.25.0",
+        "zod": "3.25.76"
+      },
+      "status": "NOT_REPRODUCED",
+      "alternative": null,
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "25348094f58591060226ba19df2fa2ca9e5dab0afe6f9f62777060ee721fd05b",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-1376",
+          "baseline_tag": "1.25.0+zod.3.25.76",
+          "candidate_tag": "1.25.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "UNKNOWN",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "passed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE",
+            "NO_COMPLETE_ENVIRONMENT_OR_RUNTIME_PROOF"
+          ],
+          "next_action": "Obtain missing provenance and runtime test evidence. Do not auto-upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "1960",
+      "title": "RegisteredTool.update with ZodObject",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1960",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "status": "REPRODUCED_NO_TESTED_FIX",
+      "alternative": null,
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "cb85586232aa5281c09444ae74d81a5e925f55584004513124888489315bc1ad",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-1960",
+          "baseline_tag": "1.29.0+zod.3.25.76",
+          "candidate_tag": "1.29.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "BLOCKED",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "failed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MANDATORY_CHECK_FAILED",
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE"
+          ],
+          "next_action": "Inspect failed check or inconsistent source evidence. Do not upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "1869",
+      "title": "Prompt with omitted optional arguments",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1869",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "status": "OBSERVED_VERSION_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.32.2",
+        "zod": "3.25.76"
+      },
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "f7ce6010fd4e957a7d087e2b02c0e0acc007946c489d142596f19a1b4406cb58",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-1869",
+          "baseline_tag": "1.29.0+zod.3.25.76",
+          "candidate_tag": "1.29.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "BLOCKED",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "failed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MANDATORY_CHECK_FAILED",
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE"
+          ],
+          "next_action": "Inspect failed check or inconsistent source evidence. Do not upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      },
+      "alternative_gate": {
+        "input_sha256": "1bbb307dd7d81634edc4e92459397df79b7be8a70eeca078adcf682802f4b0ab",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-1869",
+          "baseline_tag": "1.29.0+zod.3.25.76",
+          "candidate_tag": "1.32.2+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "UNKNOWN",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "passed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE",
+            "NO_COMPLETE_ENVIRONMENT_OR_RUNTIME_PROOF"
+          ],
+          "next_action": "Obtain missing provenance and runtime test evidence. Do not auto-upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "1956",
+      "title": "Tool validation error semantics",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1956",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "status": "NOT_REPRODUCED",
+      "alternative": null,
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "8b4964888b93c542162e22aaa85b74814671da5ba55a8584e33a3aa262470f67",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-1956",
+          "baseline_tag": "1.29.0+zod.3.25.76",
+          "candidate_tag": "1.29.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "UNKNOWN",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "passed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE",
+            "NO_COMPLETE_ENVIRONMENT_OR_RUNTIME_PROOF"
+          ],
+          "next_action": "Obtain missing provenance and runtime test evidence. Do not auto-upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "2084",
+      "title": "JSON Schema 2020-12 input/output dialect",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2084",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "4.4.3"
+      },
+      "status": "REPRODUCED_NO_TESTED_FIX",
+      "alternative": null,
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "a59bf7a82546b214f9f5cd6812397535615130e150b41d7e3a7d4cb49e8439d3",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-2084",
+          "baseline_tag": "1.29.0+zod.4.4.3",
+          "candidate_tag": "1.29.0+zod.4.4.3",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "BLOCKED",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "failed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MANDATORY_CHECK_FAILED",
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE"
+          ],
+          "next_action": "Inspect failed check or inconsistent source evidence. Do not upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "2636",
+      "title": "Closed input schema after Zod migration",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2636",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "4.4.3"
+      },
+      "status": "OBSERVED_DEPENDENCY_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "dbbf3a96a4c3100fa957db432849a8ec8509c5e2dde5605c68a2f088a0a5f431",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-2636",
+          "baseline_tag": "1.29.0+zod.4.4.3",
+          "candidate_tag": "1.29.0+zod.4.4.3",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "BLOCKED",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "failed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MANDATORY_CHECK_FAILED",
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE"
+          ],
+          "next_action": "Inspect failed check or inconsistent source evidence. Do not upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      },
+      "alternative_gate": {
+        "input_sha256": "7cc73302b02ff69d3fcbc4ac44ce569d99aa1b472cfe5ffbb69da1e609e2ade0",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-2636",
+          "baseline_tag": "1.29.0+zod.4.4.3",
+          "candidate_tag": "1.29.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "UNKNOWN",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "passed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE",
+            "NO_COMPLETE_ENVIRONMENT_OR_RUNTIME_PROOF"
+          ],
+          "next_action": "Obtain missing provenance and runtime test evidence. Do not auto-upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "2464",
+      "title": "Date in output schema blocks tools/list",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2464",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "4.4.3"
+      },
+      "status": "OBSERVED_DEPENDENCY_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "5947539d7ccca88be92007811fdc9280e1d0bed3f1fecefdfb7e6d3ef42d3445",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-2464",
+          "baseline_tag": "1.29.0+zod.4.4.3",
+          "candidate_tag": "1.29.0+zod.4.4.3",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "BLOCKED",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "failed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MANDATORY_CHECK_FAILED",
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE"
+          ],
+          "next_action": "Inspect failed check or inconsistent source evidence. Do not upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      },
+      "alternative_gate": {
+        "input_sha256": "c16ac7dad2b14bd9dae3a3d6f42643f94570c71ffcd1fe2f2e23cf4538db0641",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-2464",
+          "baseline_tag": "1.29.0+zod.4.4.3",
+          "candidate_tag": "1.29.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "UNKNOWN",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "passed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE",
+            "NO_COMPLETE_ENVIRONMENT_OR_RUNTIME_PROOF"
+          ],
+          "next_action": "Obtain missing provenance and runtime test evidence. Do not auto-upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "2627",
+      "title": "registerTool ZodObject input schema",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2627",
+      "baseline": {
+        "sdk": "1.21.0",
+        "zod": "3.25.76"
+      },
+      "status": "OBSERVED_VERSION_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.32.2",
+        "zod": "3.25.76"
+      },
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "a8d1b28869e1a63b09c0f734ac81e90f1aaf0ec199ea911cd9dc1da8acc8bc80",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-2627",
+          "baseline_tag": "1.21.0+zod.3.25.76",
+          "candidate_tag": "1.21.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "BLOCKED",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "failed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MANDATORY_CHECK_FAILED",
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE"
+          ],
+          "next_action": "Inspect failed check or inconsistent source evidence. Do not upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      },
+      "alternative_gate": {
+        "input_sha256": "f32d42ba4a1c63cd528b61c901a3f0b0b92e6e940834fb8375557e3651ea1407",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-2627",
+          "baseline_tag": "1.21.0+zod.3.25.76",
+          "candidate_tag": "1.32.2+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "UNKNOWN",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "passed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE",
+            "NO_COMPLETE_ENVIRONMENT_OR_RUNTIME_PROOF"
+          ],
+          "next_action": "Obtain missing provenance and runtime test evidence. Do not auto-upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    },
+    {
+      "id": "1864",
+      "title": "Tool icon metadata",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1864",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "status": "REPRODUCED_NO_TESTED_FIX",
+      "alternative": null,
+      "scope": "specific probe only; not general integration or security approval",
+      "live_upgrade_authorized": false,
+      "baseline_gate": {
+        "input_sha256": "d6cf4e2aaaa99208f89348b30d880236b78aa42be30515960d60ed8dd1234411",
+        "report": {
+          "schema": "tredven.upstream.preflight-report.v1",
+          "evidence_origin": "CALLER_SUPPLIED_UNVERIFIED",
+          "project": "mcp-sdk-issue-1864",
+          "baseline_tag": "1.29.0+zod.3.25.76",
+          "candidate_tag": "1.29.0+zod.3.25.76",
+          "baseline_commit": null,
+          "candidate_commit": null,
+          "decision": "BLOCKED",
+          "source_changed": null,
+          "compare_coverage": "unknown",
+          "changed_paths_considered": 0,
+          "impact_classes": {},
+          "impact_candidates": [],
+          "checks": [
+            {
+              "name": "issue_probe",
+              "status": "failed"
+            },
+            {
+              "name": "runtime_compatibility",
+              "status": "not_run"
+            }
+          ],
+          "reasons": [
+            "MANDATORY_CHECK_FAILED",
+            "MISSING_EXACT_COMMIT_COMPARISON",
+            "SOURCE_IDENTITY_UNVERIFIED",
+            "DIFF_COVERAGE_INCOMPLETE",
+            "TEST_COVERAGE_INCOMPLETE"
+          ],
+          "next_action": "Inspect failed check or inconsistent source evidence. Do not upgrade.",
+          "production_ready": false,
+          "authority": {
+            "patch": false,
+            "merge": false,
+            "deploy": false,
+            "send": false,
+            "provider_writes": false,
+            "paid_queries": false,
+            "release": false
+          }
+        }
+      }
+    }
+  ],
+  "elapsed_ms": 38751,
+  "scope": "public SDK packages only; independently authored in-memory MCP probes; no arbitrary issue code or live provider calls",
+  "manual_baseline_measured": false,
+  "external_customer_validated": false,
+  "production_ready": false,
+  "live_upgrade_authorized": false,
+  "sha256": "32b8262fc0abf34b6094e9f8a3b2e8e556f9ff1e5036bc4bb6724cf4456d451d"
+}

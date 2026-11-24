@@ -1,0 +1,336 @@
+{
+  "schema": "tredven.assurance.catalog.v1",
+  "observed_utc": "2026-11-24T13:03:27.384684+00:00",
+  "source_receipt_sha256": "32b8262fc0abf34b6094e9f8a3b2e8e556f9ff1e5036bc4bb6724cf4456d451d",
+  "probe_sha256": "949bf3bc7adb7aa2e9ef260c9a4ccbf964ef2357322c9b2fe5db27507c4385a4",
+  "runtime": "v24.19.0",
+  "profiles": [
+    {
+      "sdk": "1.21.0",
+      "zod": "3.25.76",
+      "checks": {
+        "1302": true,
+        "1376": true,
+        "1960": false,
+        "1869": false,
+        "1956": true,
+        "2084": false,
+        "2636": true,
+        "2464": true,
+        "2627": false,
+        "1864": false
+      },
+      "lock_sha256": "4e58cad42b73c07d199190fc2676601198877a9b907380f690dbd4adff3cc4fa"
+    },
+    {
+      "sdk": "1.24.3",
+      "zod": "3.25.76",
+      "checks": {
+        "1302": true,
+        "1376": true,
+        "1960": false,
+        "1869": false,
+        "1956": true,
+        "2084": false,
+        "2636": true,
+        "2464": true,
+        "2627": true,
+        "1864": false
+      },
+      "lock_sha256": "014668c058dcd1e84c93ea0339bf7c3871fdbe0993278f930c03d1269fe14658"
+    },
+    {
+      "sdk": "1.25.0",
+      "zod": "3.25.76",
+      "checks": {
+        "1302": false,
+        "1376": true,
+        "1960": false,
+        "1869": false,
+        "1956": true,
+        "2084": false,
+        "2636": true,
+        "2464": true,
+        "2627": true,
+        "1864": false
+      },
+      "lock_sha256": "c8dba9c8904f73e8e891347d9815df6b77d2d591f267d80741ab03130cfe5be8"
+    },
+    {
+      "sdk": "1.25.3",
+      "zod": "3.25.76",
+      "checks": {
+        "1302": true,
+        "1376": true,
+        "1960": false,
+        "1869": false,
+        "1956": true,
+        "2084": false,
+        "2636": true,
+        "2464": true,
+        "2627": true,
+        "1864": false
+      },
+      "lock_sha256": "b207657fa6785414531af4e753ee3793a50b122da65659f7280013e8499d812c"
+    },
+    {
+      "sdk": "1.29.0",
+      "zod": "3.25.76",
+      "checks": {
+        "1302": true,
+        "1376": true,
+        "1960": false,
+        "1869": false,
+        "1956": true,
+        "2084": false,
+        "2636": true,
+        "2464": true,
+        "2627": true,
+        "1864": false
+      },
+      "lock_sha256": "c764dfde3fd033dec2f4d9b1f664df5405db79ba8750de926855503e87ccf5d0"
+    },
+    {
+      "sdk": "1.29.0",
+      "zod": "4.4.3",
+      "checks": {
+        "1302": true,
+        "1376": true,
+        "1960": false,
+        "1869": false,
+        "1956": true,
+        "2084": false,
+        "2636": false,
+        "2464": false,
+        "2627": true,
+        "1864": false
+      },
+      "lock_sha256": "32f4ca8f10b4357b3dc5375ef1920476fbde10b8d6fa90f74c4534a8f8142456"
+    },
+    {
+      "sdk": "1.30.0",
+      "zod": "4.4.3",
+      "checks": {
+        "1302": true,
+        "1376": true,
+        "1960": false,
+        "1869": false,
+        "1956": true,
+        "2084": false,
+        "2636": false,
+        "2464": false,
+        "2627": true,
+        "1864": false
+      },
+      "lock_sha256": "17aeba3cd3f861f38a2db1feb9e1b2a7809b0d94a4c8918f1630f25ff0516d0c"
+    },
+    {
+      "sdk": "1.32.2",
+      "zod": "3.25.76",
+      "checks": {
+        "1302": true,
+        "1376": true,
+        "1960": false,
+        "1869": true,
+        "1956": true,
+        "2084": false,
+        "2636": true,
+        "2464": true,
+        "2627": true,
+        "1864": false
+      },
+      "lock_sha256": "c732344ebbe352b64162c4e94939875bd4aee33af878ac5a57b5cfa3497bedf3"
+    },
+    {
+      "sdk": "1.32.2",
+      "zod": "4.4.3",
+      "checks": {
+        "1302": true,
+        "1376": true,
+        "1960": false,
+        "1869": true,
+        "1956": true,
+        "2084": false,
+        "2636": false,
+        "2464": false,
+        "2627": true,
+        "1864": false
+      },
+      "lock_sha256": "cc7620ae09d87666b06946fa59d370bb852fc6b147c0f1b21f73f09d2240a2e8"
+    }
+  ],
+  "cases": [
+    {
+      "id": "1302",
+      "title": "JSON-RPC exports",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1302",
+      "baseline": {
+        "sdk": "1.25.0",
+        "zod": "3.25.76"
+      },
+      "status": "OBSERVED_VERSION_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.32.2",
+        "zod": "3.25.76"
+      }
+    },
+    {
+      "id": "1376",
+      "title": "Global fetch identity",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1376",
+      "baseline": {
+        "sdk": "1.25.0",
+        "zod": "3.25.76"
+      },
+      "status": "NOT_REPRODUCED",
+      "alternative": null
+    },
+    {
+      "id": "1960",
+      "title": "RegisteredTool.update with ZodObject",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1960",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "status": "REPRODUCED_NO_TESTED_FIX",
+      "alternative": null
+    },
+    {
+      "id": "1869",
+      "title": "Prompt with omitted optional arguments",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1869",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "status": "OBSERVED_VERSION_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.32.2",
+        "zod": "3.25.76"
+      }
+    },
+    {
+      "id": "1956",
+      "title": "Tool validation error semantics",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1956",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "status": "NOT_REPRODUCED",
+      "alternative": null
+    },
+    {
+      "id": "2084",
+      "title": "JSON Schema 2020-12 input/output dialect",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2084",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "4.4.3"
+      },
+      "status": "REPRODUCED_NO_TESTED_FIX",
+      "alternative": null
+    },
+    {
+      "id": "2636",
+      "title": "Closed input schema after Zod migration",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2636",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "4.4.3"
+      },
+      "status": "OBSERVED_DEPENDENCY_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      }
+    },
+    {
+      "id": "2464",
+      "title": "Date in output schema blocks tools/list",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2464",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "4.4.3"
+      },
+      "status": "OBSERVED_DEPENDENCY_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      }
+    },
+    {
+      "id": "2627",
+      "title": "registerTool ZodObject input schema",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2627",
+      "baseline": {
+        "sdk": "1.21.0",
+        "zod": "3.25.76"
+      },
+      "status": "OBSERVED_VERSION_ALTERNATIVE",
+      "alternative": {
+        "sdk": "1.32.2",
+        "zod": "3.25.76"
+      }
+    },
+    {
+      "id": "1864",
+      "title": "Tool icon metadata",
+      "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/1864",
+      "baseline": {
+        "sdk": "1.29.0",
+        "zod": "3.25.76"
+      },
+      "status": "REPRODUCED_NO_TESTED_FIX",
+      "alternative": null
+    }
+  ],
+  "discovery": {
+    "status": "OBSERVED",
+    "source": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/issues?state=all&sort=updated&direction=desc&per_page=50",
+    "scanned": 50,
+    "issues": [
+      {
+        "id": "2701",
+        "title": "Deno: TS2307 on all .js subpath imports \u2014 './*' exports map types to '*.js.d.ts'",
+        "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2701",
+        "updated_utc": "2026-11-23T02:09:12Z",
+        "status": "NEEDS_REPRODUCTION_REVIEW"
+      },
+      {
+        "id": "2705",
+        "title": "registerTool with zod raw shape: refine/superRefine/transform are silently dropped from validation",
+        "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2705",
+        "updated_utc": "2026-11-21T22:01:23Z",
+        "status": "NEEDS_REPRODUCTION_REVIEW"
+      },
+      {
+        "id": "2505",
+        "title": "v2: setRequestHandler/setNotificationHandler require a method-string literal \u2014 re-accept the schema object (or export typed method tokens)",
+        "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/2505",
+        "updated_utc": "2026-11-21T21:38:33Z",
+        "status": "NEEDS_REPRODUCTION_REVIEW"
+      },
+      {
+        "id": "3213",
+        "title": "`OpenIdProviderDiscoveryMetadataSchema` strips `revocation_endpoint`, so clients can't revoke against OIDC-only authorization servers",
+        "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/3213",
+        "updated_utc": "2026-11-21T00:27:01Z",
+        "status": "NEEDS_REPRODUCTION_REVIEW"
+      },
+      {
+        "id": "3216",
+        "title": "[v2] `client.callTool` rejects an `input_required` result when the tool declares `outputSchema` (manual mode)",
+        "source": "https://github.com/modelcontextprotocol/typescript-sdk/issues/3216",
+        "updated_utc": "2026-11-20T12:57:03Z",
+        "status": "NEEDS_REPRODUCTION_REVIEW"
+      }
+    ],
+    "coverage": "one recent page; title heuristic; unknown cases not executed"
+  },
+  "live_upgrade_authorized": false,
+  "production_ready": false,
+  "scope": "public SDK v1 and fixed Zod profiles; local observations only; no live client assurance",
+  "sha256": "31fb73e4da54e99beb331bc93a59931989142508dd0fc101e8ac21069f6054bd"
+}
